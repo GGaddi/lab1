@@ -8,20 +8,28 @@
 </head>
 
 <body>
-	<!-- this is a comment in HTML -->
-	<h1>Gabriel Gaddi</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<h4>Project</h4>
+	<div id = "background"> <h1>Gabriel Gaddi</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
+    		<img class = "displayed" src="profilePic2.jpg" alt="profile" width="70%" height="40%">
+    	<h4>About Me</h4>
 
 	<!-- p means paragraph -->
-	<p>Gabriel is a UCSD student working towards a BS in Computer Science. Currently a 4th Year and plans on graduating Fall 2016. </p>
+		<p>Gabriel is a student at the University of California, San Diego working towards a BS in Computer Science. Currently a 4th Year and plans on graduating Fall 2016. </p>
+		<h4 id = "scalableFont">Contact Info</h4>
+	<p id = "scalableFont"><a href="mailto:youremailaddress">gabriel.gaddi93@gmail.com</a> </p>
+
+	</div>
+	<!-- this is a comment in HTML -->
+	<div id = "rightProp">
 
 	<h4>Projects</h4>
-	<ol>
-		<li> <a href="DrEric.html"> UCSD GDS Dr. Eric</a> </li> 
-		<li>Design Thinking</li>
-		<li>Needfinding</li>
-		<li>Prototyping</li>
-		<li>...</li>
-	</ol>
+		<a href="DrEric.html"> <div class = "img">
+    		<img src="titleEric.jpg" alt="project" width="100%" height="200">
+  				<div class = "desc">UCSD Game Development Studio 2015-2016 Game Project</div>
+		</div> </a>
+		<!--<p id = "rightProp">Design Thinking</p>
+		<p id = "rightProp">Needfinding</p>
+		<p id = "rightProp">Prototyping</p>
+		<p id = "rightProp">...</p> -->
+	</div>
 </body>
 </html>
